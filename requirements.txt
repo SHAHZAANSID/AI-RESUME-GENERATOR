@@ -1,6 +1,6 @@
 streamlit
 langchain
-pytessetact
+pytesseract
 langchain_groq
 langchain_google_genai
 numpy
