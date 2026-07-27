@@ -73,7 +73,7 @@ def prompt_generater(agent):
     f.write(response.content[-1]['text'])
     return "Prompt file generated successfully, agent can read it"
       
-prompt_generator(model
+prompt_generator(model)
 # tool 2:
 def resume_maker_prompt():
   """This function just gives updated prompt for model"""
