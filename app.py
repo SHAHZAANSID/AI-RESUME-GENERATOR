@@ -71,7 +71,7 @@ def prompt_generater(agent):
   file_name = 'prompt.py'
   with open(file_name, 'w') as f:
     f.write(response.content[-1]['text'])
-    return "Prompt file generated successfully, agent can read it"
+  return "Prompt file generated successfully, agent can read it"
       
 prompt_generator(model)
 # tool 2:
