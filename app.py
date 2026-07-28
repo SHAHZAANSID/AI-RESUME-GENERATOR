@@ -131,7 +131,7 @@ if uploaded_file is not None:
         st.error(f"Error processing image: {e}")
 
 # ===========GENERATE RESUME========
-prompt = """prompt = """
+prompt = """
 You are a Senior UI/UX Designer and Professional HR Resume Expert.
 
 Your task is to generate a world-class ATS-friendly resume in ONE HTML file.
@@ -189,7 +189,7 @@ Wherever the profile photo should appear, use EXACTLY this:
 <img src="PROFILE_IMAGE_PLACEHOLDER" style="width:120px;height:120px;border-radius:50%;object-fit:cover;">
 
 Return ONLY HTML code.
-""""""
+"""
 
 final_prompt = prompt + resume_maker_prompt()
 
