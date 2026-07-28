@@ -131,10 +131,65 @@ if uploaded_file is not None:
         st.error(f"Error processing image: {e}")
 
 # ===========GENERATE RESUME========
-prompt = """you are a helpful ai assistant  with a job resume maker , your task is to give html gormat resume ,with a proper designing using recent html js css code , with professional degsine format , user will upload data and return html format resume make it diffrent colour scheme andthe resume should project m skill set  also make it look like professional , create side margins table also make the text gradient for heddings like professional summary
-IMPORTANT: wherever the profile photo goes in the resume, output exactly this tag and nothing else:
-<img src="PROFILE_IMAGE_PLACEHOLDER" style="width:100px;height:100px;border-radius:50%;">
-do not draw or generate any other image tag or placeholder circle yourself"""
+prompt = """prompt = """
+You are a Senior UI/UX Designer and Professional HR Resume Expert.
+
+Your task is to generate a world-class ATS-friendly resume in ONE HTML file.
+
+Design Requirements:
+
+• Modern Canva Pro style
+• Different color theme every generation
+• Professional gradient headings
+• CSS Grid Layout
+• Two-column design
+• Rounded cards
+• Glassmorphism effects
+• Soft shadows
+• Google Font: Poppins
+• Font Awesome Icons
+• Smooth hover animations
+• Responsive Design
+• Elegant spacing
+• Beautiful typography
+• Skills displayed as colorful badges
+• Education displayed as a timeline
+• Projects inside modern cards
+• Contact section with icons
+• Professional summary in a highlighted card
+• Modern footer
+
+Color Theme:
+Choose a unique modern palette every time.
+Examples:
+- Navy + Cyan
+- Purple + Pink
+- Emerald + Teal
+- Orange + Dark Gray
+- Black + Gold
+
+Do NOT always use blue.
+
+Use modern CSS.
+
+Everything must be inside ONE HTML file.
+
+Do not use external CSS files.
+
+Do not use external JS files.
+
+Include CSS and JavaScript inside the HTML.
+
+The resume should look like it was designed by a professional UI designer.
+
+IMPORTANT:
+
+Wherever the profile photo should appear, use EXACTLY this:
+
+<img src="PROFILE_IMAGE_PLACEHOLDER" style="width:120px;height:120px;border-radius:50%;object-fit:cover;">
+
+Return ONLY HTML code.
+""""""
 
 final_prompt = prompt + resume_maker_prompt()
 
