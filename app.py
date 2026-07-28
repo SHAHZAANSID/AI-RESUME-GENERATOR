@@ -138,26 +138,26 @@ Your task is to generate a world-class ATS-friendly resume in ONE HTML file.
 
 Design Requirements:
 
-• Modern Canva Pro style
-• Different color theme every generation
-• Professional gradient headings
-• CSS Grid Layout
-• Two-column design
-• Rounded cards
-• Glassmorphism effects
-• Soft shadows
-• Google Font: Poppins
-• Font Awesome Icons
-• Smooth hover animations
-• Responsive Design
-• Elegant spacing
-• Beautiful typography
-• Skills displayed as colorful badges
-• Education displayed as a timeline
-• Projects inside modern cards
-• Contact section with icons
-• Professional summary in a highlighted card
-• Modern footer
+Modern Canva Pro style
+Different color theme every generation
+Professional gradient headings
+CSS Grid Layout
+Two-column design
+Rounded cards
+Glassmorphism effects
+Soft shadows
+Google Font: Poppins
+Font Awesome Icons
+Smooth hover animations
+Responsive Design
+Elegant spacing
+Beautiful typography
+Skills displayed as colorful badges
+Education displayed as a timeline
+Projects inside modern cards
+Contact section with icons
+Professional summary in a highlighted card
+Modern footer
 
 Color Theme:
 Choose a unique modern palette every time.
