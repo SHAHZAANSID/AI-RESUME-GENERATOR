@@ -155,7 +155,7 @@ if st.button('generate resume'):
     response = agent.invoke({'messages': [{'role':'user','content':query}]})
     print(response['messages'][-1].content)
     code=response['messages'][-1].content[-1]['text']
-    st.html(code , width="stretch" , unsafe_allow_javascript=True)
+    #st.html(code , width="stretch" , unsafe_allow_javascript=True)
     # swap in the actual uploaded photo instead of the placeholder tag
     if uploaded_file  is not None:
         with open(save_path, "rb") as img_file:
@@ -163,11 +163,7 @@ if st.button('generate resume'):
         data_uri = f"data:image/jpeg;base64,{b64_image}"
         code = code.replace("PROFILE_IMAGE_PLACEHOLDER", data_uri)
       
-    #response = agent.invoke({'messages': [{'role':'user','content':query}]})
-    #print(response['messages'][-1].content)
-    #code=response['messages'][-1].content[-1]['text']
-    #st.markdown(code)
-    #st.html(code , width="stretch" , unsafe_allow_javascript=True)
+    st.html(code , width="stretch" , unsafe_allow_javascript=True)
 
 
 
