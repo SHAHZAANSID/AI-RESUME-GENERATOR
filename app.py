@@ -193,7 +193,7 @@ Return ONLY HTML code.
 
 final_prompt = prompt + resume_maker_prompt()
 
-user_info = st.text_input("Enter your information")
+user_info = st.text_area("Enter your information")
 
 user_details = f"""user details: given below:
 Resume info: {user_info}
@@ -205,7 +205,7 @@ Default if not given: Give Python Developoer Resume"""
 query = final_prompt + user_details
 
 if st.button('generate resume'):
-  with st.spinner("runnign agent"):
+  with st.spinner("running agent"):
 
     response = agent.invoke({'messages': [{'role':'user','content':query}]})
     print(response['messages'][-1].content)
