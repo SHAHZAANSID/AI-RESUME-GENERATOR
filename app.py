@@ -210,7 +210,7 @@ LOCATION = st.sidebar.multiselect('SELECT LOCATION: ',
                                   options = OPTIONS)
 
 JOB_PROFILE = ["PYTHON DEVELOPER",'GEN AI',
-               'FULL-STACK DEVELOPER','DATA ANALYST']
+               'FULL-STACK DEVELOPER','DATA ANALYST','FINANCE']
 
 PROFILE = st.sidebar.multiselect("SELECT JOB ROLE",
                                  options = JOB_PROFILE)
